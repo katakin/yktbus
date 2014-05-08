@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3706B3F9-1038-4D83-A6AC-F5A4458CB630</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YktBus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DDE3A2DF-63E7-40A7-A1F9-1CD378300408</key>
+		<string>ssh://github.com/katakin/yktbus.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/YktBus.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DDE3A2DF-63E7-40A7-A1F9-1CD378300408</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/katakin/yktbus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DDE3A2DF-63E7-40A7-A1F9-1CD378300408</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DDE3A2DF-63E7-40A7-A1F9-1CD378300408</string>
+			<key>IDESourceControlWCCName</key>
+			<string>yktbus</string>
+		</dict>
+	</array>
+</dict>
+</plist>
