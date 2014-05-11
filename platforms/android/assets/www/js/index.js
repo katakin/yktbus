@@ -43,6 +43,9 @@ function initialize() {
 
 function onReady() {
     // pre-render the pages so we don't have that damnable lazy rendering thing messing with it
+    setTimeout(function() {
+        navigator.splashscreen.hide();
+    }, 3000);
     $('div[data-role="page"]').page();
     initMap();
 }

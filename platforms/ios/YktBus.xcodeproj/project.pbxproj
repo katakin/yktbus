@@ -40,7 +40,6 @@
 		B5430B8B191B3E2500244F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5430B8A191B3E2500244F4A /* Images.xcassets */; };
 		B5430B95191B5CF200244F4A /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B5430B93191B5CF200244F4A /* icon_small.png */; };
 		B5430B96191B5CF200244F4A /* icon_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5430B94191B5CF200244F4A /* icon_small@2x.png */; };
-		BD1B90809C2D4127901B716F /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FC880E2143454D71B076CEFF /* CDVSplashScreen.m */; };
 		BD5C25061E344C0B850F99DF /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE24E17C864EDA89CA68B4 /* CDVLogger.m */; };
 		CC7740FB38F94BD3BADE2B5A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE55A700D54A4116A5C8F844 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
@@ -315,6 +314,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "YktBus" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -418,7 +426,6 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				BD5C25061E344C0B850F99DF /* CDVLogger.m in Sources */,
 				A847117BFC964E739A11B496 /* CDVNotification.m in Sources */,
-				BD1B90809C2D4127901B716F /* CDVSplashScreen.m in Sources */,
 				A8CFCA0DA85A4FBF892CE68E /* CDVLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,7 +482,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = YktBus;
+				PRODUCT_NAME = "YktBus";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -508,7 +515,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = YktBus;
+				PRODUCT_NAME = "YktBus";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

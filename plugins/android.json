@@ -24,10 +24,10 @@
         "org.apache.cordova.dialogs": {
             "PACKAGE_NAME": "com.katakin.yktbus"
         },
-        "org.apache.cordova.splashscreen": {
+        "org.apache.cordova.geolocation": {
             "PACKAGE_NAME": "com.katakin.yktbus"
         },
-        "org.apache.cordova.geolocation": {
+        "org.apache.cordova.splashscreen": {
             "PACKAGE_NAME": "com.katakin.yktbus"
         }
     },

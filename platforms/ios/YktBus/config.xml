@@ -25,12 +25,12 @@
     <feature name="Notification">
         <param name="ios-package" value="CDVNotification" />
     </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />
         <param name="onload" value="true" />
-    </feature>
-    <feature name="Geolocation">
-        <param name="ios-package" value="CDVLocation" />
     </feature>
     <name>YktBus</name>
     <description>
@@ -41,8 +41,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="Fullscreen" value="true" />
-    <preference name="Orientation" value="landscape" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="exit-on-suspend" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
 </widget>
