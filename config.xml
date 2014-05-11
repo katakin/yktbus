@@ -11,5 +11,4 @@
     <access origin="*" />
     
     <preference name="DisallowOverscroll" value="true"/>
-    <preference name="AutoHideSplashScreen" value="false" />
 </widget>

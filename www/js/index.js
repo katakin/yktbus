@@ -43,9 +43,6 @@ function initialize() {
 
 function onReady() {
     // pre-render the pages so we don't have that damnable lazy rendering thing messing with it
-    setTimeout(function() {
-        navigator.splashscreen.hide();
-    }, 3000);
     $('div[data-role="page"]').page();
     initMap();
 }
@@ -63,12 +60,12 @@ function initMap() {
     
     L.tileLayer('img/mapTiles/{z}/{x}/{y}.png', {
         minZoom: MIN_ZOOM,
-        maxZoom: 15,
+        maxZoom: 14,
         attribution: '© 2GIS <a href="http://help.2gis.ru/licensing-agreement/">Лицезионное соглашение</a>'
     }).addTo(MAP);
     
     L.tileLayer('http://{s}.maps.2gis.ru/tiles?x={x}&y={y}&z={z}', {
-        minZoom: 16,
+        minZoom: 15,
         maxZoom: MAX_ZOOM,
         attribution: '© 2GIS <a href="http://help.2gis.ru/licensing-agreement/">Лицезионное соглашение</a>',
         subdomains: ['tile0','tile1','tile2','tile3','tile4','tile5','tile6','tile7','tile8','tile9']
