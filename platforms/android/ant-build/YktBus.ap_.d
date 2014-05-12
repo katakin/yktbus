@@ -24,7 +24,7 @@
 /Users/katakin/work/yktbus/platforms/android/assets/www/css/index.css \
 /Users/katakin/work/yktbus/platforms/android/assets/www/css/jquery.mobile-1.4.2.min.css \
 /Users/katakin/work/yktbus/platforms/android/assets/www/css/jquery.mobile.iscrollview.css \
-/Users/katakin/work/yktbus/platforms/android/assets/www/css/leaflet.css \
+/Users/katakin/work/yktbus/platforms/android/assets/www/css/maps.api.2gis.css \
 /Users/katakin/work/yktbus/platforms/android/assets/www/css/images/ajax-loader.gif \
 /Users/katakin/work/yktbus/platforms/android/assets/www/img/bus-icons.png \
 /Users/katakin/work/yktbus/platforms/android/assets/www/img/icon.png \
@@ -830,12 +830,13 @@
 /Users/katakin/work/yktbus/platforms/android/assets/www/img/mapTiles/14/14101/4586.png \
 /Users/katakin/work/yktbus/platforms/android/assets/www/img/mapTiles/14/14101/4587.png \
 /Users/katakin/work/yktbus/platforms/android/assets/www/img/mapTiles/14/14101/4588.png \
+/Users/katakin/work/yktbus/platforms/android/assets/www/js/bus_data.js \
 /Users/katakin/work/yktbus/platforms/android/assets/www/js/index.js \
 /Users/katakin/work/yktbus/platforms/android/assets/www/js/iscroll.js \
 /Users/katakin/work/yktbus/platforms/android/assets/www/js/jquery-2.1.0.js \
 /Users/katakin/work/yktbus/platforms/android/assets/www/js/jquery.mobile-1.4.2.js \
 /Users/katakin/work/yktbus/platforms/android/assets/www/js/jquery.mobile.iscrollview.js \
-/Users/katakin/work/yktbus/platforms/android/assets/www/js/leaflet-src.js \
+/Users/katakin/work/yktbus/platforms/android/assets/www/js/maps.api.2gis.js \
 /Users/katakin/work/yktbus/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /Users/katakin/work/yktbus/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www \
 /Users/katakin/work/yktbus/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android \
