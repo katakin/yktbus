@@ -4,9 +4,6 @@
     <description>
         Приложение по нахождению автобусов с Якутска.
     </description>
-    <author email="gavrilievivan@gmail.com" href="http://katakin.com">
-        Katakin Team
-    </author>
     <content src="index.html" />
     <access origin="*" />
     
